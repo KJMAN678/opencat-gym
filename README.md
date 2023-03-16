@@ -30,5 +30,9 @@ conda env create --name opencat --file requirements.yaml
 # 仮想環境のアクティベート
 conda activate opencat
 
+# サンプルコード実行
 python train_bittle.py
+
+# 仮想環境の終了
+conda deactivate
 ```
